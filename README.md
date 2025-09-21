@@ -6,13 +6,13 @@ This is a web-based script written in TypeScript that demonstrates how to work w
 - Creating and displaying contact information
 - Adding, modifying, and deleting object properties
 - Performing arithmetic operations
-- Using ```Math.random()``` to generate a random contact
+- Using `Math.random()` to generate a random contact
 - Displaying the current date and time
-- Rendering all output directly to the web page using the DOM: each message is added as a new ```<p>``` element inside the ```#contact-container```.
+- Rendering all output directly to the web page using the DOM: each message is added as a new `<p>` element inside the `#contact-container`.
 
-## Use of Strict Mode "use strict"
+## Use of Strict Mode `"use strict"`
 
-TypeScript automatically enables strict mode during compilation if the following is set in tsconfig.json:
+TypeScript automatically enables strict mode during compilation if the following is set in `tsconfig.json`:
 ``` 
 {  
   "compilerOptions": {  
@@ -21,8 +21,8 @@ TypeScript automatically enables strict mode during compilation if the following
   }  
 }
 ```
-- ```"strict": true``` enables a suite of strict type-checking options, including alwaysStrict
-- The compiled ```main.js``` file will automatically include ```"use strict"``` at the top
+- `"strict": true` enables a suite of strict type-checking options, including alwaysStrict
+- The compiled `main.js` file will automatically include `"use strict"` at the top
 - This ensures safer execution and prevents common JavaScript pitfalls.
 
 ## Project Structure
@@ -52,8 +52,8 @@ TypeScript automatically enables strict mode during compilation if the following
 ```
  npx tsc --init
 ```
-6. Create a new ```main.ts``` file and write your logic inside it.
-7. Gompile ```main.ts``` to generate ```main.js``` file:
+6. Create a new `main.ts` file and write your logic inside it.
+7. Gompile `main.ts` to generate `main.js` file:
 ```
  npx tsc main.ts
 ```
@@ -61,11 +61,9 @@ TypeScript automatically enables strict mode during compilation if the following
 ```
  npx tsc
 ```
-11. Link the compiled script in ```index.html```:
-```
-<script src="main.js" type="module"></script>
-```
-13. Open ```index.html``` in your browser to see the output results
+11. Link the compiled script in `index.html`:
+```<script src="main.js" type="module"></script>```
+13. Open `index.html` in your browser to see the output results
 
 ##  Output Link
 
