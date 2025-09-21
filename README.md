@@ -70,4 +70,4 @@ TypeScript automatically enables strict mode during compilation if the following
 ##  Output Link
 
 This is the link to the output results:
- https://....
+https://tanjasav.github.io/M3G8-DataTypes/
